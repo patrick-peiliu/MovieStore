@@ -1,0 +1,31 @@
+﻿@*
+
+        @{
+        ViewData["Title"] = "Create";
+    }
+
+    <h1>
+        Create Movie
+    </h1>
+
+    <form method="post">
+        Title: <input type="text" value="" name="title" id="" /> <br />
+        Budget: <input type="text" value="" name="budget" id="" /> <br />
+        <input type="submit" value="Save Movie" />
+    </form>
+
+*@
+
+@model bool
+@if (Model)
+{
+    <h1>
+        This movie has been added as FAVORITE
+    </h1>
+}
+else
+{
+    <h1>
+        NOT a favorite movie of this user
+    </h1>
+}

@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/patrick/Desktop/local/Projects/MovieStore/MovieStore.Core/MovieStore.Core.csproj": {}
+  },
+  "projects": {
+    "/Users/patrick/Desktop/local/Projects/MovieStore/MovieStore.Core/MovieStore.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/patrick/Desktop/local/Projects/MovieStore/MovieStore.Core/MovieStore.Core.csproj",
+        "projectName": "MovieStore.Core",
+        "projectPath": "/Users/patrick/Desktop/local/Projects/MovieStore/MovieStore.Core/MovieStore.Core.csproj",
+        "packagesPath": "/Users/patrick/.nuget/packages/",
+        "outputPath": "/Users/patrick/Desktop/local/Projects/MovieStore/MovieStore.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/patrick/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
